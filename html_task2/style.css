@@ -1,0 +1,122 @@
+main {
+    display:flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+font-family:sans-serif;
+margin-bottom: 50px;
+}
+
+.template {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 33vw;
+    min-height: 100vh;
+    overflow-y: hidden;
+    background-color: white;
+    border: 50%;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    padding-bottom: -80px;
+
+   
+    }
+   
+    body  {
+        background-color: #062863;
+        background-image: url("left_up.png"),  url("right_up.png"),   url(left_down.png), url("right_down.png");
+        background-size: 15%,15%,15%,15%;
+        background-position: left -1% top -15%, right -7.5% top -1%, left -5% bottom -10%, right -5% bottom -5%;
+        background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
+        background-attachment: fixed, fixed, fixed, fixed;
+
+    }
+
+    
+    h1 {
+        color:rgb(8, 62, 158);
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 0%;
+        font-family: monospace;
+        word-spacing: -9px;
+     } 
+
+     body main p{color: #4a5568;
+        text-align: center;
+        font-size: .875rem;
+        font-family: sans-serif;
+        font-weight: normal;
+        word-spacing: 1px;
+        margin-top: 0%;
+
+     }
+     * {box-sizing: border-box}
+     input[type=text]
+     input [type=password]{
+         width: 100%;
+         padding: 15px;
+         margin: 5px 0 22px 0;
+         display: inline-block;
+         border: none;
+         background: #f1f1f1;
+         
+         
+     }
+
+     input[type=text]:focus, input[type=password]:focus, input[type=number]:focus {
+        background-color: #ddd;
+        outline: none;
+        
+        
+      }
+
+      button {
+        background-color: rgb(8, 62, 158);
+        color: white;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 1rem;
+        padding-top: 1.25rem;
+        margin: 8px 0 8px 80px;
+        border-bottom-left-radius: .75rem;
+        border-bottom-right-radius: .75rem;
+        cursor: pointer;
+        width: 70%;
+        opacity: 0.9;
+        flex-direction: row;
+        font-weight: 700;
+        font-family: sans-serif;
+        
+      }
+
+     .footer {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 14px;
+        margin: 2rem;
+        font-weight: 400;
+        justify-content: center;
+        padding: 4px 12px;
+        line-height: 10px
+      }
+      
+      .footer:hover{
+        color: #77797c;
+    }
+    
+
+     
+        
+    
+ 
+    
+     
+    
+   
+
+                           
+    
+
+
